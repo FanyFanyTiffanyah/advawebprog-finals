@@ -63,7 +63,7 @@ $conn->close();
 <body>
     <h2>Edit Student Information</h2>
     <?php if ($student): ?>
-    <form method="POST" action="edit_student.php">
+    <form method="POST" action="update.php">
         <input type="hidden" name="id" value="<?= $student['id'] ?>">
 
         <label for="fullName">Full Name:</label><br>
